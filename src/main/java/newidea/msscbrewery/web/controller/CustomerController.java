@@ -25,7 +25,7 @@ public class CustomerController {
     }
 
     @PostMapping// POST - CREATING NEW COSTUMER
-    public ResponseEntity handlePost(@RequestBody CustomerDto customerDto){
+    public ResponseEntity handlePost( @RequestBody CustomerDto customerDto){
 
         CustomerDto savedDto = customerService.saveNewCustomer(customerDto);
 
@@ -38,7 +38,7 @@ public class CustomerController {
 
     @PutMapping({"/{customerId}"})
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void handleUpdate (@PathVariable("customerId") UUID customerId, @RequestBody CustomerDto customerDto){
+    public void handleUpdate (@PathVariable("customerId") UUID customerId,  @RequestBody CustomerDto customerDto){
         customerService.updateCustomer(customerId, customerDto);
     }
 
@@ -47,4 +47,5 @@ public class CustomerController {
     public void deleteBeer (@PathVariable("customerId") UUID customerId){
         customerService.deleteCustomer(customerId);
     }
+
 }
