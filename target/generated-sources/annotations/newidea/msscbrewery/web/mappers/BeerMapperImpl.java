@@ -5,12 +5,13 @@ import newidea.msscbrewery.domain.Beer;
 import newidea.msscbrewery.domain.Beer.BeerBuilder;
 import newidea.msscbrewery.web.model.BeerDto;
 import newidea.msscbrewery.web.model.BeerDto.BeerDtoBuilder;
+import newidea.msscbrewery.web.model.BeerStyleEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-02-23T10:47:48-0300",
+    date = "2022-02-23T12:19:18-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.10 (Oracle Corporation)"
 )
 @Component
@@ -34,7 +35,9 @@ public class BeerMapperImpl implements BeerMapper {
         beerDto.createdDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
         beerDto.lastModifiedDate( dateMapper.asOffsetDateTime( beer.getLastModifiedDate() ) );
         beerDto.beerName( beer.getBeerName() );
-        beerDto.beerStyle( beer.getBeerStyle() );
+        if ( beer.getBeerStyle() != null ) {
+            beerDto.beerStyle( Enum.valueOf( BeerStyleEnum.class, beer.getBeerStyle() ) );
+        }
         beerDto.upc( beer.getUpc() );
         beerDto.price( beer.getPrice() );
 
@@ -56,7 +59,9 @@ public class BeerMapperImpl implements BeerMapper {
         beer.createdDate( dateMapper.asTimestamp( dto.getCreatedDate() ) );
         beer.lastModifiedDate( dateMapper.asTimestamp( dto.getLastModifiedDate() ) );
         beer.beerName( dto.getBeerName() );
-        beer.beerStyle( dto.getBeerStyle() );
+        if ( dto.getBeerStyle() != null ) {
+            beer.beerStyle( dto.getBeerStyle().name() );
+        }
         beer.upc( dto.getUpc() );
         beer.price( dto.getPrice() );
 

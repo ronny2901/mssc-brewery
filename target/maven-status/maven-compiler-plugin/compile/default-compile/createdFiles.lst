@@ -1,5 +1,6 @@
 newidea/msscbrewery/web/model/v2/BeerStyleEnum.class
 newidea/msscbrewery/web/model/v2/BeerDtoV2.class
+newidea/msscbrewery/web/model/BeerStyleEnum.class
 newidea/msscbrewery/web/services/BeerService.class
 newidea/msscbrewery/web/mappers/DateMapper.class
 newidea/msscbrewery/web/model/CustomerDto$CustomerDtoBuilder.class

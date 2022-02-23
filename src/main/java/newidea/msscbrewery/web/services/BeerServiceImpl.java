@@ -2,6 +2,7 @@ package newidea.msscbrewery.web.services;
 
 import lombok.extern.slf4j.Slf4j;
 import newidea.msscbrewery.web.model.BeerDto;
+import newidea.msscbrewery.web.model.BeerStyleEnum;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -15,7 +16,7 @@ public class BeerServiceImpl implements BeerService{
         return BeerDto.builder()
                 .id(UUID.randomUUID())
                 .beerName("Heinekein")
-                .beerStyle("Pale Ale")
+                .beerStyle(BeerStyleEnum.PALE_ALE)
                 .build();
     }
 

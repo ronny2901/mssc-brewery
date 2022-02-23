@@ -8,6 +8,7 @@
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/repositories/BeerRepository.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/MsscBreweryApplication.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/mappers/CustomerMapper.java
+/Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/model/BeerStyleEnum.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/model/v2/BeerStyleEnum.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/domain/Beer.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/model/v2/BeerDtoV2.java
