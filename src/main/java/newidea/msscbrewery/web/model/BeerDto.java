@@ -21,8 +21,8 @@ public class BeerDto {
     private UUID id;
     private Integer version;
 
-    private OffsetDateTime createdDate;
-    private OffsetDateTime lastModifiedDate;
+//    private OffsetDateTime createdDate;
+//    private OffsetDateTime lastModifiedDate;
 
     @NotBlank
     private String beerName;

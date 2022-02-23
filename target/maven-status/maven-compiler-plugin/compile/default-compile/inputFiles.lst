@@ -3,6 +3,7 @@
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/controller/v2/BeerControlerV2.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/services/CustomerServiceImpl.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/controller/MvcExceptionHandler.java
+/Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/mappers/CustomerMapper.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/services/CustomerService.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/services/BeerService.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/repositories/BeerRepository.java
@@ -12,6 +13,8 @@
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/model/v2/BeerDtoV2.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/services/v2/BeerServiceV2Impl.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/services/v2/BeerServiceV2.java
+/Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/domain/Customer.java
+/Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/mappers/BeerMapper.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/controller/BeerController.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/mappers/BeerMapper.java
 /Users/ronaldocastilho/Desktop/workspace/mssc-brewery/src/main/java/newidea/msscbrewery/web/controller/CustomerController.java

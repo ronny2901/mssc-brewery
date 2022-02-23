@@ -1,5 +1,7 @@
 package newidea.msscbrewery.web.controller;
 
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import newidea.msscbrewery.web.model.BeerDto;
 import newidea.msscbrewery.web.services.BeerService;
 import org.springframework.http.HttpHeaders;
@@ -10,15 +12,13 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.UUID;
 
+@Slf4j
+@RequiredArgsConstructor
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {
 
     private final BeerService beerService;
-
-    public BeerController(BeerService beerService) {
-        this.beerService = beerService;
-    }
 
     @GetMapping({"/{beerId}"})
     public ResponseEntity<BeerDto> getBeer(@PathVariable("beerId") UUID beerId) {
@@ -28,6 +28,7 @@ public class BeerController {
     @PostMapping// POST - CREATING NEW BEER
     public ResponseEntity handlePost(@Valid @RequestBody BeerDto beerDto){
 
+        log.debug("in handle post...");
         BeerDto savedDto = beerService.saveNewBeer(beerDto);
 
         HttpHeaders headers = new HttpHeaders();
