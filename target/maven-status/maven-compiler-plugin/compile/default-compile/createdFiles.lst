@@ -1,6 +1,7 @@
 newidea/msscbrewery/web/model/v2/BeerStyleEnum.class
 newidea/msscbrewery/web/model/v2/BeerDtoV2.class
 newidea/msscbrewery/web/services/BeerService.class
+newidea/msscbrewery/web/mappers/DateMapper.class
 newidea/msscbrewery/web/model/CustomerDto$CustomerDtoBuilder.class
 newidea/msscbrewery/repositories/BeerRepository.class
 newidea/msscbrewery/web/services/CustomerService.class
@@ -11,11 +12,10 @@ newidea/msscbrewery/domain/Customer.class
 newidea/msscbrewery/domain/Customer$CustomerBuilder.class
 newidea/msscbrewery/web/controller/MvcExceptionHandler.class
 newidea/msscbrewery/web/model/BeerDto$BeerDtoBuilder.class
-newidea/msscbrewery/mappers/BeerMapper.class
 newidea/msscbrewery/MsscBreweryApplication.class
 newidea/msscbrewery/domain/Beer$BeerBuilder.class
 newidea/msscbrewery/web/services/v2/BeerServiceV2.class
-newidea/msscbrewery/mappers/CustomerMapper.class
+newidea/msscbrewery/web/mappers/CustomerMapper.class
 newidea/msscbrewery/web/controller/BeerController.class
 newidea/msscbrewery/web/services/CustomerServiceImpl.class
 newidea/msscbrewery/web/model/v2/BeerDtoV2$BeerDtoV2Builder.class
@@ -23,8 +23,7 @@ newidea/msscbrewery/web/model/CustomerDto.class
 newidea/msscbrewery/web/controller/CustomerController.class
 newidea/msscbrewery/web/mappers/BeerMapperImpl.class
 newidea/msscbrewery/web/model/BeerDto.class
-newidea/msscbrewery/mappers/CustomerMapperImpl.class
 newidea/msscbrewery/web/services/v2/BeerServiceV2Impl.class
-newidea/msscbrewery/mappers/BeerMapperImpl.class
 newidea/msscbrewery/bootstrap/BeerLoader.class
 newidea/msscbrewery/web/mappers/BeerMapper.class
+newidea/msscbrewery/web/mappers/CustomerMapperImpl.class

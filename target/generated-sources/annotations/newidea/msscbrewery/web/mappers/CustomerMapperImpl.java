@@ -1,4 +1,4 @@
-package newidea.msscbrewery.mappers;
+package newidea.msscbrewery.web.mappers;
 
 import javax.annotation.processing.Generated;
 import newidea.msscbrewery.domain.Customer;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-02-23T09:43:40-0300",
+    date = "2022-02-23T10:47:48-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.10 (Oracle Corporation)"
 )
 @Component

@@ -4,7 +4,7 @@ import newidea.msscbrewery.domain.Beer;
 import newidea.msscbrewery.web.model.BeerDto;
 import org.mapstruct.Mapper;
 
-@Mapper
+@Mapper(uses = {DateMapper.class})
 public interface BeerMapper {
 
     BeerDto beerToBeerDto(Beer beer);

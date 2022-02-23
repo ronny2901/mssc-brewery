@@ -1,4 +1,4 @@
-package newidea.msscbrewery.mappers;
+package newidea.msscbrewery.web.mappers;
 
 import newidea.msscbrewery.domain.Customer;
 import newidea.msscbrewery.web.model.CustomerDto;
