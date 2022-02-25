@@ -5,14 +5,12 @@ import newidea.msscbrewery.domain.Customer;
 import newidea.msscbrewery.domain.Customer.CustomerBuilder;
 import newidea.msscbrewery.web.model.CustomerDto;
 import newidea.msscbrewery.web.model.CustomerDto.CustomerDtoBuilder;
-import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-02-23T16:02:23-0300",
+    date = "2022-02-24T10:13:09-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.10 (Oracle Corporation)"
 )
-@Component
 public class CustomerMapperImpl implements CustomerMapper {
 
     @Override

@@ -6,19 +6,15 @@ import newidea.msscbrewery.domain.Beer.BeerBuilder;
 import newidea.msscbrewery.web.model.BeerDto;
 import newidea.msscbrewery.web.model.BeerDto.BeerDtoBuilder;
 import newidea.msscbrewery.web.model.BeerStyleEnum;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-02-23T16:02:22-0300",
+    date = "2022-02-24T10:13:10-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.10 (Oracle Corporation)"
 )
-@Component
 public class BeerMapperImpl implements BeerMapper {
 
-    @Autowired
-    private DateMapper dateMapper;
+    private final DateMapper dateMapper = new DateMapper();
 
     @Override
     public BeerDto beerToBeerDto(Beer beer) {
